@@ -68,6 +68,7 @@ import proxmoxbackupserver from "./proxmoxbackupserver/widget";
 import pialert from "./pialert/widget";
 import pihole from "./pihole/widget";
 import plex from "./plex/widget";
+import polygon from "./polygon/widget";
 import portainer from "./portainer/widget";
 import prometheus from "./prometheus/widget";
 import prowlarr from "./prowlarr/widget";
@@ -172,6 +173,7 @@ const widgets = {
   pialert,
   pihole,
   plex,
+  polygon,
   portainer,
   prometheus,
   prowlarr,

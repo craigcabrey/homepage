@@ -419,6 +419,9 @@ export function cleanServiceGroups(groups) {
 
           // unifi
           site,
+
+          // polygon
+          ticker,
         } = cleanedService.widget;
 
         let fieldsList = fields;
@@ -449,6 +452,10 @@ export function cleanServiceGroups(groups) {
           if (symbols) cleanedService.widget.symbols = symbols;
           if (slugs) cleanedService.widget.slugs = slugs;
           if (defaultinterval) cleanedService.widget.defaultinterval = defaultinterval;
+        }
+
+        if (type === "polygon") {
+          if (symbols) cleanedService.widget.symbols = symbols;
         }
 
         if (type === "docker") {

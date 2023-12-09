@@ -75,6 +75,7 @@ const components = {
   pialert: dynamic(() => import("./pialert/component")),
   pihole: dynamic(() => import("./pihole/component")),
   plex: dynamic(() => import("./plex/component")),
+  polygon: dynamic(() => import("./polygon/component")),
   portainer: dynamic(() => import("./portainer/component")),
   prometheus: dynamic(() => import("./prometheus/component")),
   prowlarr: dynamic(() => import("./prowlarr/component")),
